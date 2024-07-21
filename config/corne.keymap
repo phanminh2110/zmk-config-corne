@@ -54,10 +54,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE     &trans    &kp UP_ARROW    &trans     &trans  &trans    &trans  &trans  &trans  &trans             &kp PRINTSCREEN  &kp BSPC
-&out OUT_TOG  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans             &trans           &kp END
-&kp LSHFT     &trans    &trans          &trans     &trans  &trans    &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp SLASH
-                                        &trans     &trans  &trans    &trans  &trans  &trans
+&kp GRAVE  &trans    &kp UP_ARROW    &trans     &trans  &trans    &trans  &trans  &trans  &trans             &kp PRINTSCREEN  &kp BSPC
+&trans     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans             &trans           &kp END
+&kp LSHFT  &trans    &trans          &trans     &trans  &trans    &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp SLASH
+                                     &trans     &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
