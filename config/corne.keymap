@@ -24,10 +24,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E             &kp R         &kp T    &kp Y      &kp U         &kp I  &kp O      &kp P       &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D             &kp F         &kp G    &kp H      &kp J         &kp K  &kp L      &kp SEMI    &kp ENTER
-&kp LSHFT  &kp Z  &kp X  &kp C             &kp V         &kp B    &kp B      &kp N         &kp M  &kp COMMA  &kp PERIOD  &kp DEL
-                         &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 1    &kp SPACE  &kp LEFT_WIN  &mo 2
+&kp ESC    &kp Q  &kp W  &kp E             &kp R         &kp T          &kp Y      &kp U         &kp I  &kp O      &kp P       &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D             &kp F         &kp G          &kp H      &kp J         &kp K  &kp L      &kp SEMI    &kp ENTER
+&kp LSHFT  &kp Z  &kp X  &kp C             &kp V         &kp B          &kp B      &kp N         &kp M  &kp COMMA  &kp PERIOD  &kp FSLH
+                         &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 SPACE    &kp SPACE  &kp LEFT_WIN  &mo 2
             >;
         };
 
@@ -40,9 +40,9 @@
 
             bindings = <
 &rgb_ug RGB_TOG  &kp N1           &kp N2           &kp N3           &kp N4           &kp N5             &kp N6     &kp N7     &kp N8            &kp N9             &kp N0            &kp DELETE
-&out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_CLR         &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp PRINTSCREEN
-&kp LSHFT        &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &trans     &trans     &trans            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp SLASH
-                                                   &trans           &trans           &trans             &trans     &trans     &trans
+&out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_CLR         &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp END
+&kp LSHFT        &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &trans     &trans     &trans            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp PRINTSCREEN
+                                                   &kp LCTRL        &kp LEFT_ALT     &trans             &trans     &trans     &trans
             >;
         };
 
